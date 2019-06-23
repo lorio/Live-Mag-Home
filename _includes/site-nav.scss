@@ -1,0 +1,54 @@
+h2.site-nav a,
+.contributors h2 a {
+  padding: 1em;
+  line-height: 1.3em;
+  font-size: 1.8;
+  font-family: 'matrix-ii', serif;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2em;
+  margin-left: -8px;
+}
+h2.site-nav a {
+  color: #5888bc ;
+  text-decoration:underline;
+}
+ul.site-nav,
+ul.contributors {
+  list-style-type: none;
+  font-size: 1.2em;
+  margin-top: 1em;
+  padding-left: 0;
+  margin-left: -1em;
+}
+ul.site-nav li,
+ul.contributors li {
+ /*  margin-left: -8px; */
+  padding: .5em 0 0;
+}
+ul.site-nav a {
+  color: #5888bc;
+  text-decoration: none; 
+  font-weight: bold;
+  padding: .5em;
+}
+ul.contributors a {
+  color: rgba(1,0,59,0.5);
+  text-decoration: none; 
+  font-weight: bold;
+  padding: .5em;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.site-nav a:active,
+.contributors a:hover,
+.contributors a:focus,
+.contributors a:active {
+  color: #01003b;
+  position:relative;top:1px;left:1px;
+}
+.site-nav .selected a,
+.contributors .selected a {
+  color: #01003b;
+}

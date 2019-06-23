@@ -1,0 +1,67 @@
+
+.site-header {
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  text-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
+  font-weight: bold;
+}
+.site-header .logo h1 a {
+  display: flex;
+  font-family: "matrix-ii", serif;
+  text-decoration: none;   
+  background-color: #e0e0e0 ;
+  border: 10px dashed #fefefe;
+  border-radius: 50%;
+  font-size: 1.1em;
+  text-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
+  line-height: 0.8em;
+  color: #01003b;
+  padding: 0.3em 0;
+}
+.site-header .logo h1 a:hover,
+.site-header .logo h1 a:focus,
+.site-header .logo h1 a:active {
+  color: slategray;
+  position:relative;top:1px;left:1px;
+}
+/*.logo {*/
+  /*border-left: 2px solid rgba(255, 64, 255, 0.2);
+  border-radius: 0 0 10px 0;
+}*/
+.tagline {
+  display: flex;
+  font-family: "mr-eaves-modern", san-serif;
+  padding-right: 4em;
+  font-size: 1.14em;
+}
+.subscribe a {
+  font-family: "mr-eaves-modern", san-serif;
+  display: flex;
+  align-self: baseline;
+  text-decoration: underline;
+  font-size: 1.3em;
+}
+.site-header a {
+  color: #01003b;
+  text-decoration: none;
+}
+.site-header a:hover,
+.site-header a:focus,
+.site-header a:active {
+  color: slategray;
+  position:relative;top:1px;left:1px;
+}
+.site-header .subscribe-home a {
+  font-family: "mr-eaves-modern", san-serif;
+  display: flex;
+  align-self: baseline;
+  text-decoration: underline;
+  font-size: 1.3em;
+  color: #5888bc;
+}
+.site-header .subscribe-home a:hover {
+  position:relative;top:1px;left:1px;
+  color: $text-color;
+}
