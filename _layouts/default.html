@@ -4,7 +4,7 @@
 {% include head.html %}
 
 <body>
-    <div class="container">
+    <div class="container-home">
         {% include header.html %}
         <div class="home-content-wrap">
             <aside class=home-aside>
@@ -25,12 +25,39 @@
                     <h3><a href="issue_15/">Current Issue</a></h3>
                 </header>
 
-                <figure>
-                    <a href="issue_15/">
-                        <img src="images/no15/heffernan.jpg" alt="painting of fantasy landscape"></a>
-                    <figcaption>Julie Heffernan <em>Mayday</em> 2018 oil on canvas 43 x 66 in. Image courtesy of
-                        P.P.O.W. Gallery</figcaption>
-                </figure>
+                <blockquote cite="issue_15/andre-codrescu/"><p class="poem">
+                    I like my verse clean and the sonnet a little dirty<br>
+                    like the beloved to whom it is usually dedicated.</p>
+                    <cite>From "The Twelve-line Sonnet Needs You" by Andre Codrescu</cite>
+                </blockquote>
+
+                <blockquote cite="issue_15/elaine-equi/">
+                    <p class="poem">Good grief! Pet sorrow!<br>
+                    Choked up mountains. Hiccuppping hills.<br>
+                    Zoo of bygone instincts.<br>
+                    Lovers always leaping from the windows of their eyes.</p>
+                    <cite>From "Laminated Lament" by Elaine Equi</cite>
+                </blockquote>
+
+                <div class="gallery">
+                    <figure>
+                    <a href="issue_15/julie-heffernan/">
+                        <img src="images/no15/home-thumbs/heffernant.jpg" alt="painting detail"></a>
+                    </figure>
+                    <figure>
+                        <a href="issue_15/eung-ho-park/">
+                            <img src="images/no15/home-thumbs/parkt.jpg" alt="detail sculpture"></a>
+                    </figure>
+                    <figure>
+                        <a href="issue_15/nikki-johnson/">
+                            <img src="images/no15/home-thumbs/johnsont.jpg" alt="detail photo"></a>
+                    </figure>
+                    <figure>
+                        <a href="issue_15/paul-laster/">
+                            <img src="images/no15/home-thumbs/lastert.jpg" alt="detil collage"></a>
+                    </figure>
+                    <cite>clockwise from upper-left:Julie Heffernan, Eung Ho Park, Paul Laster, Nikki Johnson</cite>
+                </div>
             </section><!-- end main -->  
             <aside class="social">
                 <p>
@@ -72,7 +99,7 @@
     <script>
         /* Open the drawer when the menu ison is clicked.*/
         var menu = document.querySelector('#menu');
-        var main = document.querySelector('.content-wrap');
+        var main = document.querySelector('.home-content-wrap');
         var drawer = document.querySelector('.side-nav');
 
         menu.addEventListener('click', function (e) {

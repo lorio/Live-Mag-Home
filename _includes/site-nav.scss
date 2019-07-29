@@ -52,3 +52,8 @@ ul.contributors a {
 .contributors .selected a {
   color: #01003b;
 }
+@media screen and (max-width: 1047px) {
+  .site-nav {
+    margin-left: 2em;
+  }
+}

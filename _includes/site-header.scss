@@ -30,11 +30,17 @@
   /*border-left: 2px solid rgba(255, 64, 255, 0.2);
   border-radius: 0 0 10px 0;
 }*/
-.tagline {
+.tagline-home {
   display: flex;
-  font-family: "mr-eaves-modern", san-serif;
+  color: rgba(1,0,59,0.5);
+  color: #006a4e;
+  font-family: "matrix-ii", serif;
   padding-right: 4em;
-  font-size: 1.14em;
+  h3 {
+    font-size: 1.1em;
+    letter-spacing: 0.1em
+  }
+  
 }
 .subscribe a {
   font-family: "mr-eaves-modern", san-serif;
